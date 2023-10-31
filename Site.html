@@ -4,13 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Avaliacao/styles/site.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>loja</title>
+    <link rel="stylesheet" href="/styles/site.css">
+    <link rel="shortcut icon" href="images/195439_car_256x256.png" type="image/x-icon">
+    <title>MH Veículos</title>
+    <nav>
+        <a href="#">Comprar </a> 
+        <a href="#">Suporte</a>
+        <a href="#">Contato</a> 
+      </nav>
 </head>
 <body>
-    <h1>Doggo</h1>
+    <h1>MH Veículos</h1>
 <form>
+    <div>
+        <label for="">nome:</label>  
+        <input 
+           type="text" 
+           name="nome" 
+           id="nome"
+           placeholder="Digite o seu nome completo">
+    </div>
 <div>
     <label for="">Email:</label>  
     <input 
@@ -19,18 +32,37 @@
        id="Email"
        placeholder="Digite o seu email">
 </div>
-
 <div>
-    
+    <label for="">Confirmação de Email:</label>  
+    <input 
+       type="email" 
+       name="Email" 
+       id="Email"
+       placeholder="Repita o seu email">
+</div>
+<div>   
+    <label for="">Telefone:</label> 
+    <input type="number" 
+    name="Telefone" 
+    id="Telefone"
+    placeholder="(11) 1234-5678">
+</div>
+<div>   
 <label for="">Senha:</label> 
 <input type="password" 
 name="Senha" 
 id="Senha"
 placeholder="Digite a sua senha">
-<h3><a href="#">Esqueceu sua senha?</h3></a>
 </div>
-
+<div>   
+    <label for="">Confirmação de Senha:</label> 
+    <input type="password" 
+    name="Senha" 
+    id="Senha"
+    placeholder="Repita a sua senha">
+</div>
 <input type="submit" value="Confirmar"></input>
+<h3><a href="/pages/esqueci.html">Esqueceu sua senha?</h3></a>
 </form> 
 </body>
 </html>

@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "loja";
+    src: url(/fonts/masque/MASQUE__.ttf)
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image:url(/images/e97fedc5-lanzador-1.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form > div{
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+    gap: 5px;
+    }
+    
+    form{
+        width: 50%;
+        font-family: "loja";
+    background-color: rgb(116, 116, 116);
+    padding: 10px;
+    margin-bottom: 500px;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.753);
+    }
+
+    h3{
+        font-family: "loja";
+        color: rgb(0, 255, 242);
+        font-size: 32px;
+        letter-spacing: 3px;
+        text-align: center;
+        -webkit-text-stroke: 2px rgb(0, 0, 0);
+    }
+
+    div > input{
+        font-family: "loja";
+     height: 25px;   
+     border: 1px solid rgb(192, 192, 192);
+    font-size: 20px;
+    }
+    
+    div > input:focus{
+        outline: 2px solid rgb(14, 151, 192);
+    }
+    
+    form > input{
+        font-family: "loja";
+    background-color: rgb(0, 174, 255);
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    height: 25px;
+    transition: background-color .3s ;
+    font-size: 18px;
+    }
+    
+    form > input:hover{
+        background-color: rgb(0, 255, 255);
+        cursor: pointer;
+    }
+    
+    form  label{
+        font-size: 14px;
+        color: rgb(0, 247, 255);
+        
+    }
+    a{
+        font-family: "loja";
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        text-decoration: none;
+        text-align: center;
+    }
