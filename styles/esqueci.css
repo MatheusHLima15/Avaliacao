@@ -30,13 +30,22 @@ form > div{
     form{
         width: 50%;
         font-family: "loja";
-    background-color: rgb(116, 116, 116);
+    background-color: rgb(85, 84, 84);
     padding: 10px;
     margin-bottom: 500px;
     border-radius: 20px;
     margin-top: 20px;
     box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.753);
     }
+
+    legend{
+        font-family: "loja";
+        font-size: 30px;
+        color: rgb(0, 247, 255);
+        text-align: center;
+        -webkit-text-stroke: 2px black;
+        }
+
 
     h3{
         font-family: "loja";
