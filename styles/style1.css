@@ -1,0 +1,51 @@
+:root{
+    --azul:  #6EB3D0;
+    --verde:  #2f9e00;
+    --laranja:  #F4A623;
+    --preto: #000000;
+   --branco: #FFFFFF;
+}
+
+header,footer{
+    background-color: var(--azul);
+}
+
+#temaAtualEscuro{
+    display: none;
+}
+
+
+
+.card button{
+    background-color: var(--azul);
+    border-radius: 0px ;
+    border: none;
+    width: 10rem;
+    color: #000000;
+}
+
+.card button:hover{
+    background-color: #004585;
+}
+
+#adote{
+    width: 100% ;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+form{
+    width: 70%;
+    height: 100%;
+}
+
+#button2{
+background-color: var(--azul) !important;
+border-radius: 0px;
+border: none;
+width: 10rem;
+}
+
+#button2:hover{
+    background-color: #00b3ff !important;
+}
