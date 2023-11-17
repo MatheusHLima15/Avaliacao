@@ -1,11 +1,11 @@
 @font-face {
     font-family: "loja";
-    src: url(/fonts/hypersuperfast/HyperSuperFast.ttf)
+    src: url(/fonts/mabook/Mabook.otf)
 }
 
 @font-face {
     font-family: "loja2";
-    src: url(/fonts/masque/MASQUE__.ttf)
+    src: url(/fonts/mabook/Mabook.ttf)
 }
 
 *{
@@ -16,79 +16,79 @@
 }
 
 body{
-    height: 100vh;
-   background-image: url(/images/2024-Mustang-RTR-Spec-2-4.jpeg);
-    display: flex;
-    background-repeat: no-repeat;
-    background-size: cover;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    height: 100vh !important;
+   background-image: url(/images/bri-tucker-LGG5P7KCziU-unsplash.jpg);
+    display: flex !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
 }
 
 
 form > div{
-display: flex;
-margin-bottom: 10px;
-flex-direction: column;
-gap: 5px;
+display: flex !important;
+margin-bottom: 10px !important;
+flex-direction: column !important;
+gap: 5px !important;
 }
 
 form{
-    width: 20%;
-    font-family: "loja2";
-background-color: rgb(0, 0, 0);
-padding: 10px;
-margin-bottom: 400px;
-border-radius: 20px;
-margin-top: 20px;
-box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.753);
+    width: 20% !important;
+    font-family: "loja2" !important;
+background-color: rgb(0, 0, 0) !important;
+padding: 10px !important;
+margin-bottom: 400px !important;
+border-radius: 20px !important;
+margin-top: 20px !important;
+box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.753) !important;
 }
 
 legend{
     font-family: "loja";
     font-size: 30px;
-    color: aqua;
+    color:rgb(0, 162, 255);
     text-align: center;
     }
 
 h1{
-    font-family: "loja";
-    color: rgb(255, 255, 255);
-    font-size: 80px;
-    letter-spacing: 3px;
-    -webkit-text-stroke: 2px black;
+    font-family: "loja" !important;
+    color: rgb(255, 255, 255) !important;
+    font-size: 80px !important;
+    letter-spacing: 3px !important;
+    -webkit-text-stroke: 2px black !important;
 }
 
 h3{
-color: slategray;    
-font-size: 12px;
-font-family: "loja2";
-color: rgb(255, 255, 255);
-letter-spacing: 3px;
+color: slategray !important;    
+font-size: 12px !important;
+font-family: "loja2" !important;
+color: rgb(255, 255, 255) !important;
+letter-spacing: 3px !important;
 }
 
 h4{
-    font-family: "loja2";
-    color: rgb(255, 255, 255);
-    font-size: 12px;
-    letter-spacing: 3px;
+    font-family: "loja2" !important;
+    color: rgb(255, 255, 255) !important;
+    font-size: 12px !important;
+    letter-spacing: 3px !important;
 }
 
 div > input{
-    font-family:Arial, Helvetica, sans-serif;
- height: 25px;   
- border: 1px solid rgb(192, 192, 192);
-font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif !important;
+ height: 25px !important;   
+ border: 1px solid rgb(192, 192, 192) !important;
+font-size: 20px !important;
 }
 
 div > input:focus{
-    outline: 2px solid rgb(14, 151, 192);
+    outline: 2px solid rgb(0, 162, 255);
 }
 
 form > input{
     font-family: "loja2";
-background-color:  rgb(0, 174, 255);
+background-color:  rgb(0, 162, 255);
 width: 100%;
 border-radius: 10px;
 border: none;
@@ -98,19 +98,19 @@ font-size: 18px;
 }
 
 form > input:hover{
-    background-color: rgb(0, 255, 255);
+    background-color:rgb(0, 78, 122);
     cursor: pointer;
 }
 
 form  label{
-    font-size: 14px;
-    color: rgb(0, 247, 255);
+    font-size: 14px !important;
+    color: rgb(0, 162, 255) !important;
     
 }
 a{
-    font-family: "loja";
-    color: rgb(255, 255, 255);
-    font-size: 16px;
-    text-decoration: none;
-    text-align: center;
+    font-family: "loja" !important;
+    color: rgb(255, 255, 255) !important;
+    font-size: 16px !important;
+    text-decoration: none !important;
+    text-align: center !important;
 }
