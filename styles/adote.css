@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "loja";
+    src: url(/fonts/mabook/Mabook.otf);
+}
+
+:root{
+    --azul:  #6EB3D0;
+    --verde:  #2f9e00;
+    --laranja:  #F4A623;
+    --preto: #000000;
+   --branco: #FFFFFF;
+}
+
+header,footer{
+    background-color: var(--azul);
+}
+
+h4,h5{
+    font-family: "loja" !important;
+    font-size: 25px !important;
+    
+}
+
+legend{
+    font-family: "loja";
+    font-size: 40px !important;
+    text-align: center;
+}
+
+p{
+    font-family: "loja" !important;
+    font-size: 20px !important;
+    text-align: center;
+}

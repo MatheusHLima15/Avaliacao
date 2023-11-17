@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "loja";
+    src: url(/fonts/mabook/Mabook.otf);
+}
+
 :root{
     --azul:  #6EB3D0;
     --verde:  #2f9e00;
@@ -14,7 +19,25 @@ header,footer{
     display: none;
 }
 
+h4,h5{
+    font-family: "loja" !important;
+    font-size: 20px !important;
+}
 
+a{
+    font-family: "loja" !important;
+    font-size: 10px;
+}
+
+p{
+    font-family: "loja" !important;
+    font-size: 15px;
+}
+
+h2{
+    font-family: "loja" !important;
+    font-size: 25px !important;
+}
 
 .card button{
     background-color: var(--azul);
