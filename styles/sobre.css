@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "loja";
+}
+
+@font-face {
+    font-family: "loja";
+    src: url(/fonts/mabook/Mabook.otf);
+}
+
+:root{
+    --azul:  #007ef5;
+    --verde:  #2f9e00;
+    --laranja:  #F4A623;
+    --preto: #000000;
+   --branco: #FFFFFF;
+}
+
+
+header,footer{
+    background-color: var(--azul);
+    align-items: center !important;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: "loja" !important;
+    font-size: 20px !important;
+    
+}
+
+a{
+    font-family: "loja" !important;
+    font-size: 20px !important;
+}
+
+article{
+    font-family: "loja";
+    font-size: 40px !important;
+    text-align: center !important;
+    justify-content: center !important;
+}
+
+h2{
+    font-family: "loja" !important;
+    font-size: 30px !important;
+}
+
+p{
+   font-family: Arial, Helvetica, sans-serif !important;
+   justify-content: center !important;
+   width: 80% !important;
+    font-size: 20px !important;
+    text-align: center !important;
+}
+
+li{
+    font-family: "loja" !important;
+    text-decoration: none !important;
+}
+
+.carousel-item img {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto ! !important;
+}
+
+.align-center {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
