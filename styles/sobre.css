@@ -48,10 +48,10 @@ h2{
 }
 
 p{
-   font-family: Arial, Helvetica, sans-serif !important;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
    justify-content: center !important;
-   width: 80% !important;
-    font-size: 20px !important;
+   /* width: 80% !important; */
+    font-size: 19px !important;
     text-align: center !important;
 }
 
@@ -60,14 +60,24 @@ li{
     text-decoration: none !important;
 }
 
-.carousel-item img {
+.carousel-item img{
     display: block !important;
     margin-left: auto !important;
-    margin-right: auto ! !important;
+    margin-right: auto !important;
 }
 
 .align-center {
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
+}
+
+.animated{
+    overflow: hidden;
+    max-height: 100px;
+    transition: max-height 0.5s ease;
+}
+
+.visible{
+    max-height: 1000px;
 }
