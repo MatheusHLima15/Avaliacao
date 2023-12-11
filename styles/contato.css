@@ -1,0 +1,87 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+@font-face{
+  font-family: "loja";
+  src: url(/fonts/mabook/Mabook.otf);
+}
+
+body{
+    font-family: "loja" !important;
+  }
+
+  .contacts{
+    max-width: 500px !important;
+    margin: 20px auto !important;
+    padding: 20px !important;
+    border: 1px solid #000000 !important;
+    border-radius: 8px !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
+    font-size: 30px;
+  }
+
+  h2{
+    text-align: center !important;
+    font-size: 40px !important;
+    color: var(--laranja) !important;
+  }
+
+  h3{
+    text-align: center !important;
+    font-size: 40px !important;
+  }
+  .contact-details{
+    margin-top: 10px !important;
+  }
+
+  .contact-details p{
+    margin: 5px 0 !important;
+  }
+
+
+:root{
+    --azul:  #007ef5;
+    --verde:  #2f9e00;
+    --laranja:  #F4A623;
+    --preto: #000000;
+   --branco: #FFFFFF;
+}
+
+header,footer{
+    background-color: var(--azul) !important;
+}
+
+#temaAtualEscuro{
+    display: none;
+}
+
+#imgCont{
+    align-items: center !important;
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column !important;    
+     
+}
+
+p{
+    font-size: 20px !important;
+    text-align: center !important;
+}
+
+footer{
+    height: 30px !important;
+}
+
+.card button{
+    background-color: var(--azul);
+    border-radius: 0px ;
+    border: none;
+    width: 10rem;
+    color: #000000;
+}
+
+.card button:hover{
+    background-color: #004585;
+}
