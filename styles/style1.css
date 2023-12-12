@@ -3,6 +3,10 @@
     src: url(/fonts/mabook/Mabook.otf);
 }
 
+body{
+    font-family: "loja" !important;
+}
+
 :root{
     --azul:  #007ef5;
     --verde:  #2f9e00;
@@ -62,6 +66,10 @@ form{
     height: 100%;
 }
 
+button:hover{
+    color:forestgreen;
+}
+
 #button2{
 background-color: var(--azul) !important;
 border-radius: 0px;
@@ -72,3 +80,5 @@ width: 10rem;
 #button2:hover{
     background-color: #00b3ff !important;
 }
+
+

@@ -1,0 +1,9 @@
+h1, h2, h3,legend,a {
+    transform: scale(1);
+    transition: transform 0.5s ease-in-out;
+  }
+
+
+  h1:hover, h2:hover, h3:hover, legend:hover,a:hover {
+    transform: scale(1.2);
+  }
